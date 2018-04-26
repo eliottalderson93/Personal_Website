@@ -1,0 +1,4 @@
+This project is co-authored by Steffanie Maher and Erik Nordland. We are 
+intending to make a stylish and effective personal webpage to show 
+potential employers our Front-End design skills. The page will consist 
+of a front page ..... and a second page ....
