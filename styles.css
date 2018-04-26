@@ -2,38 +2,45 @@
 *{
     padding:0px;
     margin:0px;
-    border:red dashed 1px;
     font-family:Arial, Helvetica, sans-serif;
 }
 /*This is the start of the webpage*/
 .wrapper{
     min-height:1000px;
-    width:1545px;
+    max-width:1545px;
     background-color:white;
 }
     /*Define the classes below*/
     .top_image{
         background-image:url(./front_pic.jpg); /*ask solution for changing url by steff*/
         height:500px;
-        width:1545px;
+        width:1515px;
         margin:auto;
         background-size:100%;
         padding:15px;
+        max-width:inherit;
     }
     .header{
-        width:1545px;
+        width:1515px;
         height:200px;
+        max-width:inherit;
         }
         .header h1{
             color:white;
             display:inline-block;
+        }
+        .header h2{
+            color:white;
+            display:block;
+            margin:auto;
+            
         }
         .header ul{
             list-style-type: none;
             margin: 5px 0px 0px 5px;
             padding: 0;
             display:inline-block;
-            margin-left:1100px;
+            margin-left:1050px;
         }
             .header ul li{
                 color:white;
@@ -42,7 +49,6 @@
                 border-radius:5px;
                 border:white 2px solid;
                 padding:5px;
-                
             }
     .info{
         width:1545px;
@@ -75,6 +81,7 @@
         width:inherit+20px;
         height:200px;
         padding:5px;
+        max-width:inherit;
     }
         .footer p{
             text-align:right;
