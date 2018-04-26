@@ -3,16 +3,81 @@
     padding:0px;
     margin:0px;
     border:red dashed 1px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 /*This is the start of the webpage*/
 .wrapper{
     min-height:1000px;
-    min-width:1000px;
-    background-color:silver;
+    width:1545px;
+    background-color:white;
 }
     /*Define the classes below*/
-    .class{
+    .top_image{
+        background-image:url(./front_pic.jpg); /*ask solution for changing url by steff*/
         height:500px;
-        width:500px;
+        width:1545px;
         margin:auto;
+        background-size:100%;
+        padding:15px;
     }
+    .header{
+        width:1545px;
+        height:200px;
+        }
+        .header h1{
+            color:white;
+            display:inline-block;
+        }
+        .header ul{
+            list-style-type: none;
+            margin: 5px 0px 0px 5px;
+            padding: 0;
+            display:inline-block;
+            margin-left:1100px;
+        }
+            .header ul li{
+                color:white;
+                display: inline;
+                margin: 10px;
+                border-radius:5px;
+                border:white 2px solid;
+                padding:5px;
+                
+            }
+    .info{
+        width:1545px;
+        height:600px;   
+        color:white;
+    }
+        .icon_bar{
+            width:inherit;
+            height:200px;
+            margin:auto;
+            padding-left:450px;
+        }
+            .icon_bar img{
+                height:50px;
+                width:50px;
+                border-radius:50%;
+                border:black solid 1px;
+                margin-top:75px;
+                margin-left:75px;
+            }
+        .info p{
+            width:650px;
+            margin:auto;
+            height:200px;
+            color:rgb(52, 52, 56);
+            padding:50px;
+        }
+    .footer{
+        background-color:rgb(52, 52, 56);
+        width:inherit+20px;
+        height:200px;
+        padding:5px;
+    }
+        .footer p{
+            text-align:right;
+            margin-top:180px;
+            color:gray;
+        }
